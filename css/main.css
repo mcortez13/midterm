@@ -1,7 +1,68 @@
 body {
     background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5pt;
 }
 
-article, div, form {
+main {
     background-color: #d4e9e7;
+    width: 831px;
+    margin: 0 auto;
+    padding:9px;
+}
+
+.site-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-title {
+    font-weight: 400;
+    font-size: 37pt;
+    color: white;
+    position: absolute;
+    top: 21%;
+    left: 41%;
+}
+
+.navbar {
+    background-color: #d4e9e7;
+    width: 849px;
+    align-items: center;
+    margin: auto;
+}
+
+
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+    background-color:#d4e9e7;
+    display: inline-block;
+    padding:4px;
+    margin-top: 3px;
+    margin-inline: 80px;
+    font-size: 20px;
+}
+    
+#image-wrap {
+    float: left;
+    padding-right: 17px;
+    padding-bottom: 25px;
+}
+
+.h2 {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+h3 {
+    font-size: 17pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+footer {
+    font-size: 11pt;
+    
 }
