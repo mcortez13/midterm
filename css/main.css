@@ -25,6 +25,7 @@ main {
     left: 41%;
 }
 
+/* Styling the navbar*/
 .navbar {
     background-color: #d4e9e7;
     width: 849px;
@@ -49,7 +50,8 @@ a:link, a:visited {
     font-size: 20px;
     font-weight: bold;
 }
-    
+
+/* Styling body text*/
 #image-wrap {
     float: left;
     padding-right: 17px;
@@ -68,6 +70,7 @@ h3 {
     font-weight:600;
 }
 
+/* Styling the form*/
 ul {
     font-size: 10pt;
 }
@@ -96,6 +99,7 @@ button {
     border-width: 1px;
 }
 
+/* Styling the footer*/
 footer {
     font-size: 11pt;
     background: #d4e9e7;
