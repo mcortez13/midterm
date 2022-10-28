@@ -32,6 +32,11 @@ main {
     margin: auto;
 }
 
+a:not(:first-child):before {
+    content: "|";
+    padding-right: 80px;
+    font-weight: 500;
+}
 
 a:link, a:visited {
     color:black;
@@ -40,8 +45,9 @@ a:link, a:visited {
     display: inline-block;
     padding:4px;
     margin-top: 3px;
-    margin-inline: 80px;
+    margin-inline: 40px;
     font-size: 20px;
+    font-weight: bold;
 }
     
 #image-wrap {
@@ -62,7 +68,40 @@ h3 {
     font-weight:600;
 }
 
+ul {
+    font-size: 10pt;
+}
+
+#fullname {
+    width:790px;
+}
+
+#email {
+    width: 790px;
+}
+
+#message {
+    width: 790px;
+    height:70px;
+}
+
+.form-title {
+    font-size: 17px;
+}
+
+button {
+    background-color:#d4e9e7;
+    padding: 9px;
+    font-size: 9px;
+    border-width: 1px;
+}
+
 footer {
     font-size: 11pt;
-    
+    background: #d4e9e7;
+    text-align: right;
+    width: 831px;
+    margin: 0 auto;
+    padding:9px;
 }
+    
